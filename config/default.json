@@ -1,0 +1,19 @@
+{
+    "features": [
+        {
+            "id": "feature-1",
+            "description": "This is the first feature",
+            "enabled": false
+        },
+        {
+            "id": "feature-2",
+            "description": "This is the second feature",
+            "enabled": false
+        },
+        {
+            "id": "feature-3",
+            "description": "This is the third feature",
+            "enabled": false
+        }
+    ]
+}

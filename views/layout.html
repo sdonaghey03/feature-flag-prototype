@@ -1,0 +1,30 @@
+{{< govuk-template}}
+
+{{$head}}
+    {{> partials-head}}
+{{/head}}
+
+{{$pageTitle}}
+    {{$header}}{{/header}} Passports - GOV.UK
+{{/pageTitle}}
+
+{{$headerClass}}with-proposition{{/headerClass}}
+
+{{$globalHeaderText}}Passport Office{{/globalHeaderText}}
+
+{{$main}}
+    <main id="content" class="main" role="main">
+        <div class="phase-banner">
+            <p>
+                <strong class="phase-tag">ALPHA</strong>
+                <span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
+            </p>
+        </div>
+        {{> partials-back}}
+        <div class="grid-row">
+            {{> partials-maincontent}}
+        </div>
+    </main>
+{{/main}}
+
+{{/ govuk-template}}
